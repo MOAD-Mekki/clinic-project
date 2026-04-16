@@ -1,0 +1,23 @@
+.info-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+}
+
+.title {
+    margin: 10px 0 10px 0;
+    color: black;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+}
+
+.desc p {
+    width: 70%;
+    text-align: center;
+}

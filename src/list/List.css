@@ -1,0 +1,14 @@
+.container2 {
+
+    height: 200px;
+}
+
+
+.cards2 {
+    padding: 3px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 7px;
+    grid-template-columns: repeat(3 , 2fr);
+}
