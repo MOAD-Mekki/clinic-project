@@ -8,7 +8,7 @@ export default function List(){
     useEffect( ()=>{
 
         async function fetcher() {
-        let res = await fetch("http://localhost:30001/users");
+        let res = await fetch(`${process.env.api-url}users`);
         
         
         const data = await res.json();
